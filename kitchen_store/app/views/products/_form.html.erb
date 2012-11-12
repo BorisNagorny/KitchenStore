@@ -1,0 +1,65 @@
+<%= form_for(@product) do |f| %>
+  <% if @product.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+      <% @product.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :quantityOnHand %><br />
+    <%= f.number_field :quantityOnHand %>
+  </div>
+  <div class="field">
+    <%= f.label :quantityOnOrder %><br />
+    <%= f.number_field :quantityOnOrder %>
+  </div>
+  <div class="field">
+    <%= f.label :weight %><br />
+    <%= f.text_field :weight %>
+  </div>
+  <div class="field">
+    <%= f.label :costPerUnit %><br />
+    <%= f.text_field :costPerUnit %>
+  </div>
+  <div class="field">
+    <%= f.label :regularPrice %><br />
+    <%= f.text_field :regularPrice %>
+  </div>
+  <div class="field">
+    <%= f.label :salePrice %><br />
+    <%= f.text_field :salePrice %>
+  </div>
+  <div class="field">
+    <%= f.label :float %><br />
+    <%= f.text_field :float %>
+  </div>
+  <div class="field">
+    <%= f.label :expectedShippingDate %><br />
+    <%= f.date_select :expectedShippingDate %>
+  </div>
+  <div class="field">
+    <%= f.label :lastUpdated %><br />
+    <%= f.date_select :lastUpdated %>
+  </div>
+  <div class="field">
+    <%= f.label :dateAdded %><br />
+    <%= f.date_select :dateAdded %>
+  </div>
+  <div class="field">
+    <%= f.label :category %><br />
+    <%= f.text_field :category %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  quantity: 1
+  orderdate: 2012-11-09
+  expecteddate: 2012-11-09
+
+two:
+  quantity: 1
+  orderdate: 2012-11-09
+  expecteddate: 2012-11-09

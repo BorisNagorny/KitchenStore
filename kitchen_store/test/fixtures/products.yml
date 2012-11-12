@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  quantityOnHand: 1
+  quantityOnOrder: 1
+  weight: 1.5
+  costPerUnit: 1.5
+  regularPrice: 1.5
+  salePrice: MyString
+  float: MyString
+  expectedShippingDate: 2012-11-09
+  lastUpdated: 2012-11-09
+  dateAdded: 2012-11-09
+  category: MyString
+  description: MyString
+
+two:
+  quantityOnHand: 1
+  quantityOnOrder: 1
+  weight: 1.5
+  costPerUnit: 1.5
+  regularPrice: 1.5
+  salePrice: MyString
+  float: MyString
+  expectedShippingDate: 2012-11-09
+  lastUpdated: 2012-11-09
+  dateAdded: 2012-11-09
+  category: MyString
+  description: MyString

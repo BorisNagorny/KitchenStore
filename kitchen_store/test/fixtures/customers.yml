@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  province: MyString
+  city: MyString
+  address: MyString
+  numPurchases: MyString
+  lastOrder: 2012-11-09
+
+two:
+  name: MyString
+  province: MyString
+  city: MyString
+  address: MyString
+  numPurchases: MyString
+  lastOrder: 2012-11-09
